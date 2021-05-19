@@ -20,7 +20,8 @@
     "eject": "react-scripts eject"
   },
   "resolutions": {
-    "postcss": "^8.2.10"
+    "postcss": "^8.2.10",
+    "minimist": "^1.2.5"
   },
   "eslintConfig": {
     "extends": [
@@ -39,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "minimist": "^1.2.5"
   }
 }
