@@ -18,15 +18,15 @@ function App() {
 
   const onSearchChange = (event) =>{
 
-    setsearchField({searchField: event.target.value});
+    setsearchField(event.target.value);
     console.log(event.target.value);
 
     
   }
 
-    const filteredRobot= robot.filter(robot=>
+    const filteredRobot= robot.filter(robots=>
       {
-        return robot.name.toLowerCase().includes(searchField.toLowerCase());
+        return robots.name.toLowerCase().includes(searchField.toLowerCase());
       })
 
     return (
