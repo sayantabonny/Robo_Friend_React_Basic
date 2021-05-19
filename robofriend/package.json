@@ -19,6 +19,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "resolutions": {
+    "postcss": "^8.2.10"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
